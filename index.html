@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b2c96d0946.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="centerCont">
+
+
+            <div class="cityInput">
+                <input type="text" name="" id="cityInput" placeholder="Enter City">
+                <button id="getWeatherBtn">Get</button>
+            </div>
+
+            <div class="weatherCard">
+                <div class="weatherIcon">
+                    <i id="icon" class="fa-solid fa-sun" style="color: yellow;"></i>
+                    <!-- <i class="fa-solid fa-street-view"></i> -->
+                </div>
+                <div class="info">
+                    <div class="cityAndCountry">
+                        <h3 class="cityCountry" id="cityNCont">Delhi-IN</h3>
+                        <p id="dayAndTime">Wed | oct 25 | 9:35 AM</p>
+                    </div>
+                    <div class="tempBox">
+                        <p class="temp main-temp" id="normalTemp">23&deg;c</p>
+                        <div class="temp-range">
+                            <p class="minmaxtemp" id="minmaxtemp">Min Temp 25&deg;c <br> Max Temp 21&deg;c</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="./javaScript/index.js"></script>
+    
+</body>
+
+</html>
+
